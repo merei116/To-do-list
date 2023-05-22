@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" >
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <script src="https://kit.fontawesome.com/3d644fcb20.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pangolin">
+        
+        
+    
+        <title>To-do List</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div style="background-color: #F1FAEE;">
+                    <h1 style="color: black"> Заранее спасибо</h1>
+                    <p style="color: black"></p>
+                </div>
+                <div style="background-color: #A8DADC;">
+                    <h1>НЕ снижайте, за креативность</h1>
+                    <p></p>
+                </div>
+                <div style="background-color: #457B9D;">
+                    <h1>Но, я добавила другие фичи</h1>
+                    <p> Например это</p>
+                </div>
+                <div style="background-color: #1D3557;">
+                    <h1>У меня по  ТЗ не все получилось</h1>
+                    <p> А именно, добавлять и удалять дни</p>
+                </div>
+            </div>
+            <div class="main-slide">
+                <div style="background-image: url('https://i.ytimg.com/vi/Q6Nsvrnnug8/maxresdefault.jpg');"></div>
+                <div style="background-image: url('https://www.newshub.co.nz/home/lifestyle/2019/08/the-top-five-cat-memes-of-all-time-rated/_jcr_content/par/video/image.dynimg.full.q75.jpg');"></div>
+                <div style="background-image: url('https://a.pinatafarm.com/1092x612/d47afa3656/coughing-cat-dcbc3e50b235f7aa3793bfa07959fb7a-meme.jpeg');"></div>
+                <div style="background-image: url('https://wegotthiscovered.com/wp-content/uploads/2022/09/Olli-The-Polite-Cat-Meme.jpeg?w=1200');"></div>
+            </div>
+            <div class="controls">
+                <button class="down-button">
+                  <i class="fas fa-arrow-down"></i>
+                </button>
+                <button class="up-button">
+                  <i class="fas fa-arrow-up"></i>
+                </button>
+              </div>
+        </div>
+        <div>
+            <div class="top">
+                <h1>To-do List</h1>
+            </div>
+        </div>
+         <div class="slider">
+        <div class="cont1">
+            <div class="slides" style="background-image: url(https://e1.pxfuel.com/desktop-wallpaper/235/468/desktop-wallpaper-ultra-motivational-quotes.jpg);">
+                
+            </div>
+            <div class="slides" style="background-image: url(https://e1.pxfuel.com/desktop-wallpaper/239/432/desktop-wallpaper-motivational-full-and-backgrounds-be-original.jpg);">
+              
+            </div>
+            <div class="slides" style="background-image: url(https://e1.pxfuel.com/desktop-wallpaper/898/768/desktop-wallpaper-study-motivation-motivational-aesthetic-quotes.jpg);">
+            
+            </div>
+            <div class="slides active" style="background-image: url(https://e1.pxfuel.com/desktop-wallpaper/449/229/desktop-wallpaper-motivation-quote-posted-by-sarah-peltier-trading-quotes.jpg);">
+              
+            </div>
+            <div class="slides" style="background-image: url(https://e1.pxfuel.com/desktop-wallpaper/375/385/desktop-wallpaper-10-inspirational-afari-motivational-aesthetic-pc-thumbnail.jpg);">
+               
+            </div>
+        </div>
+        </div>
+        <div class="todoList">
+            <div class="row"> 
+                <div class="days">
+                   <div>Monday
+                    <div>
+                        <input type="text" id="myInput" placeholder="Title...">
+                         <span onclick="newElement()" class="addBtn">+</span>
+                    </div>
+                    <ul id="myUL">
+                        <li>Hit the gym</li>
+                        <li class="checked">Pay bills</li>
+                        <li>Meet George</li>
+                        <li>Buy eggs</li>
+                        <li>Read a book</li>
+                        <li>Organize office</li>
+                      </ul>
+                   </div>
+                   <div>Tuesday
+                    <div>
+                        <input type="text" id="myInput1" placeholder="Title...">
+                        <span onclick="newElement1()" class="addBtn">+</span>
+                    </div>
+                    <ul id="myUL1">
+                        <li>Hit the gym</li>
+                        <li class="checked">Pay bills</li>
+                        <li>Meet George</li>
+                        <li>Buy eggs</li>
+                        <li>Read a book</li>
+                        <li>Organize office</li>
+                      </ul>
+                   </div>
+                   <div>Wednesday
+                    <div>
+                        <input type="text" id="myInput2" placeholder="Title...">
+                        <span onclick="newElement2()" class="addBtn">+</span>
+                    </div>
+                    <ul id="myUL2">
+                        <li>Hit the gym</li>
+                        <li class="checked">Pay bills</li>
+                        <li>Meet George</li>
+                        <li>Buy eggs</li>
+                        <li>Read a book</li>
+                        <li>Organize office</li>
+                      </ul>
+                   </div>
+                   <div>Thursday
+                    <div>
+                        <input type="text" id="myInput3" placeholder="Title...">
+                        <span onclick="newElement3()" class="addBtn">+</span>
+                    </div>
+                    <ul id="myUL3">
+                        <li>Hit the gym</li>
+                        <li class="checked">Pay bills</li>
+                        <li>Meet George</li>
+                        <li>Buy eggs</li>
+                        <li>Read a book</li>
+                        <li>Organize office</li>
+                      </ul>
+                   </div>
+                   <div>Friday
+                    <div>
+                        <input type="text" id="myInput4" placeholder="Title...">
+                        <span onclick="newElement4()" class="addBtn">+</span>
+                    </div>
+                    <ul id="myUL4">
+                        <li>Hit the gym</li>
+                        <li class="checked">Pay bills</li>
+                        <li>Meet George</li>
+                        <li>Buy eggs</li>
+                        <li>Read a book</li>
+                        <li>Organize office</li>
+                      </ul>
+                   </div>
+                   <div>Saturday
+                    <div>
+                        <input type="text" id="myInput5" placeholder="Title...">
+                        <span onclick="newElement5()" class="addBtn">+</span>
+                    </div>
+                    <ul id="myUL5">
+                        <li>Hit the gym</li>
+                        <li class="checked">Pay bills</li>
+                        <li>Meet George</li>
+                        <li>Buy eggs</li>
+                        <li>Read a book</li>
+                        <li>Organize office</li>
+                      </ul>
+                   </div>
+                   <div>Sunday
+                    <div>
+                        <input type="text" id="myInput6" placeholder="Title...">
+                        <span onclick="newElement6()" class="addBtn">+</span>
+                    </div>
+                    <ul id="myUL6">
+                        <li>Hit the gym</li>
+                        <li class="checked">Pay bills</li>
+                        <li>Meet George</li>
+                        <li>Buy eggs</li>
+                        <li>Read a book</li>
+                        <li>Organize office</li>
+                      </ul>
+                   </div>
+                </div>
+            </div>
+
+        </div>
+        <script src="style.js" ></script>
+    </body>
+</html>
